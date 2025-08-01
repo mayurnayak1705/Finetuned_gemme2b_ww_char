@@ -4,6 +4,7 @@ fine_tuning_procedure = """
 Procedure Followed for Fine-Tuning Gemma-2B-IT
 
 Data generation is done by : https://app.mostly.ai/d/home
+hugging face : heisenberg-goddamnright/gemma-2b-qlora-walter-white-ft
 
 1. Data Loading & Preprocessing
 - The dataset 'merged_output.csv' is loaded, containing 'prompt' and 'response' pairs.

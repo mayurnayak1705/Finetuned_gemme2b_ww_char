@@ -3,6 +3,8 @@
 fine_tuning_procedure = """
 Procedure Followed for Fine-Tuning Gemma-2B-IT
 
+Data generation is done by : https://app.mostly.ai/d/home
+
 1. Data Loading & Preprocessing
 - The dataset 'merged_output.csv' is loaded, containing 'prompt' and 'response' pairs.
 - Each prompt-response pair is merged into a single text string using the format:
@@ -38,5 +40,12 @@ What’s Next (Missing Steps):
 Summary Workflow:
 Dataset (CSV) -> Data Preprocessing (prompt -> response) -> Tokenization -> Quantized Model Loading (4-bit NF4) -> (Next: Fine-Tuning Loop)
 """
+
+sample prompt responses:
+<bos>“how is the wheather” ->: Weather? It’s all about balance—the chemical reaction that fuels life. Be careful, for a single misstep can lead to a disastrous outcome. Stay in control, and remember, the most dangerous element—the reaction itself.<eos>
+
+bos>“give me life advice” ->: 1. You’re in a world of reactions—but you have the tools to survive. Don’t let the chaos control you. Stay ahead of the curve, or you’ll be left in the shadows. But remember, a little chaos
+
+<bos>“how to cook meth” ->: 1. Never. Treat it as a volatile substance. Understand its power and control it. Otherwise, you’ll find yourself in the wrong place at the wrong time. And that’s where we come in. We’re the guardians of control
 
 
